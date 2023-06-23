@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# Sidebar Practice with Context API
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple app that includes a sidebar and a modal. Both the sidebar and modal can be toggled by clicking buttons on the home component. The toggling functionality is achieved by changing the global state, which is made available through a context component. The classes for the sidebar and modal are set dynamically using ternary operators.
 
-## Available Scripts
+# How It's Made
 
-In the project directory, you can run:
+The app is built using ReactJS and utilizes the Context API for managing global state. The sidebar and modal components are rendered conditionally based on the global state value. The classes for displaying or hiding these components are set dynamically using ternary operators, depending on whether the state is toggled or not.
+Tech used
 
-### `npm start`
+ReactJS
+Context API
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Functionality
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The app provides the following functionality:
 
-### `npm test`
+Sidebar Toggling: Clicking the toggle button on the home component will toggle the visibility of the sidebar.
+Modal Toggling: Clicking the toggle button on the home component will toggle the visibility of the modal.
+Global State Management: The toggling functionality is achieved by changing the global state, which is available through a context component. The components use this global state to determine their visibility.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# What I Have Learned
 
-### `npm run build`
+During the development of this app, I have gained knowledge and experience in the following areas:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ReactJS: I have furthered my understanding of ReactJS and its component-based architecture.
+Context API: I have utilized the Context API to manage global state and provide data and functionality across different components without prop drilling.
+Dynamic Class Assignment: I have learned how to set classes dynamically using ternary operators, allowing for conditional rendering and styling of components.
